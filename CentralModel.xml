@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd" identifier="id-87bd351a-406a-4fc7-af3e-9bc0d9311725">
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd" identifier="id-87bd351a-406a-4fc7-af3e-9bc0d9311725"
+version="0.1">
   <name xml:lang="de">CentralModel</name>
   <elements>
     <element identifier="id-5e50603d-bd28-49ef-91e7-5db25b447f6a" xsi:type="BusinessProcess">
