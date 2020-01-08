@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" identifier="id-87bd351a-406a-4fc7-af3e-9bc0d9311725" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Model.xsd">
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" identifier="id-87bd351a-406a-4fc7-af3e-9bc0d9311725" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Model.xsd">
     <name xml:lang="de">CentralModel</name>
     <elements>
         <element xsi:type="BusinessProcess" identifier="id-5e50603d-bd28-49ef-91e7-5db25b447f6a">
@@ -26,7 +26,7 @@
             <documentation xml:lang="de">General passenger screening where passengers are walk through metal detectors</documentation>
         </element>
         <element xsi:type="BusinessProcess" identifier="id-e1bb993d-0ba7-4224-ba36-dc9c920027fd">
-            <name xml:lang="de">checkin</name>
+            <name xml:lang="de">sfddsf</name>
             <documentation xml:lang="de">Checkin process includes passport verification,issuing boarding pass to the passengers and droping baggage.</documentation>
             <properties>
                 <property propertyDefinitionRef="propid-4">
@@ -161,6 +161,11 @@
         <element xsi:type="BusinessActor" identifier="id-2b00ec8b-0d2c-4a3e-a478-046f51d36d76">
             <name xml:lang="de">Custom officials</name>
             <documentation xml:lang="de">The govenerment officer who enforces customs laws.</documentation>
+            <properties>
+                <property propertyDefinitionRef="propid-7">
+                    <value xml:lang="de">dfgfdgdgf</value>
+                </property>
+            </properties>
         </element>
         <element xsi:type="BusinessActor" identifier="id-175fa772-6936-421b-acbe-ed2e063d4ce3">
             <name xml:lang="de">Military forces</name>
@@ -232,7 +237,7 @@
             <name xml:lang="de">Custom declaration form</name>
             <documentation xml:lang="de">Custom declaration is a form that is filled when visitos/goods/citizens entering the Nation's border.</documentation>
             <properties>
-                <property propertyDefinitionRef="propid-7">
+                <property propertyDefinitionRef="propid-8">
                     <value xml:lang="de"></value>
                 </property>
             </properties>
@@ -241,7 +246,7 @@
             <name xml:lang="de">onspot ticket purchase</name>
             <documentation xml:lang="de">Facility to book the tickets at the airport.</documentation>
             <properties>
-                <property propertyDefinitionRef="propid-8">
+                <property propertyDefinitionRef="propid-9">
                     <value xml:lang="de">Available</value>
                 </property>
             </properties>
@@ -262,7 +267,7 @@
             <name xml:lang="de">Free internet access</name>
             <documentation xml:lang="de">Free wifi access that connects phones, laptops.</documentation>
             <properties>
-                <property propertyDefinitionRef="propid-9">
+                <property propertyDefinitionRef="propid-10">
                     <value xml:lang="de">55Mbps</value>
                 </property>
             </properties>
@@ -271,7 +276,7 @@
             <name xml:lang="de">Restaurants</name>
             <documentation xml:lang="de">Serves food and drinks to passengers in exchange for money.</documentation>
             <properties>
-                <property propertyDefinitionRef="propid-10">
+                <property propertyDefinitionRef="propid-11">
                     <value xml:lang="de">No</value>
                 </property>
             </properties>
@@ -331,10 +336,6 @@
         <element xsi:type="BusinessService" identifier="id-5ee963f5-c3d8-4075-9e0b-abd06b8b13bc">
             <name xml:lang="de">Mobile checkin</name>
             <documentation xml:lang="de">check-in features like seat selection, meal selection etc can be accessed by keying in a website on the mobile phone's browser or by downloading a dedicated application.</documentation>
-        </element>
-        <element xsi:type="BusinessObject" identifier="id-c32ba1ad-ad8d-4645-b095-9470ed5f0f4c">
-            <name xml:lang="de">checked bags fee</name>
-            <documentation xml:lang="de">Extra charge to be paid for excess baggage.</documentation>
         </element>
         <element xsi:type="BusinessObject" identifier="id-2b40d58a-d2ee-4991-b975-ecff82209791">
             <name xml:lang="de">Ticket</name>
@@ -446,7 +447,7 @@
             <name xml:lang="de">Receipt of payment</name>
             <documentation xml:lang="de">Bill for the proof of parking payment</documentation>
             <properties>
-                <property propertyDefinitionRef="propid-11">
+                <property propertyDefinitionRef="propid-12">
                     <value xml:lang="de">hkjhkh</value>
                 </property>
             </properties>
@@ -645,6 +646,12 @@
         <element xsi:type="BusinessInteraction" identifier="id-63aba9cc-1a82-477d-bb2b-5f8511d9ffbd">
             <name xml:lang="de">Business Interaction</name>
         </element>
+        <element xsi:type="ApplicationEvent" identifier="id-f9989468-f528-415b-aefb-19b8b9391e90">
+            <name xml:lang="de">Application Event</name>
+        </element>
+        <element xsi:type="BusinessRole" identifier="id-955a7e54-dfb3-4a84-b1ca-3998524cb00e">
+            <name xml:lang="de">Business Role</name>
+        </element>
     </elements>
     <relationships>
         <relationship xsi:type="Triggering" source="id-5e50603d-bd28-49ef-91e7-5db25b447f6a" target="id-002a8951-ccec-465f-88e0-fe0f9fd7c5e8" identifier="id-b212f46a-447a-44e0-a18c-14a40c371c5c"/>
@@ -810,8 +817,6 @@
         <relationship xsi:type="Realization" source="id-7d935d83-bc78-44b0-b7db-20622ed1139a" target="id-b15de31c-dcd4-4991-93e0-c66c29e882fa" identifier="id-9eba9f14-c70f-48c2-b89c-b04eb1ea44dc"/>
         <relationship xsi:type="Realization" source="id-e1bb993d-0ba7-4224-ba36-dc9c920027fd" target="id-5ee963f5-c3d8-4075-9e0b-abd06b8b13bc" identifier="id-ae1bc274-0221-48dd-b633-b10e122e7261"/>
         <relationship xsi:type="Realization" source="id-7d935d83-bc78-44b0-b7db-20622ed1139a" target="id-5ee963f5-c3d8-4075-9e0b-abd06b8b13bc" identifier="id-5f810942-2955-46ae-81d0-02883db26b18"/>
-        <relationship xsi:type="Access" accessType="Write" source="id-e1bb993d-0ba7-4224-ba36-dc9c920027fd" target="id-c32ba1ad-ad8d-4645-b095-9470ed5f0f4c" identifier="id-735a570c-67a1-46df-ac84-4a746b465dc6"/>
-        <relationship xsi:type="Access" accessType="Write" source="id-42e93ce2-fb9c-4888-b0e0-2ee81c817c05" target="id-c32ba1ad-ad8d-4645-b095-9470ed5f0f4c" identifier="id-3b7c638e-e0fa-4122-811d-c8ed04104c88"/>
         <relationship xsi:type="Realization" source="id-23842868-271b-453e-aad3-d870a31c3975" target="id-b15de31c-dcd4-4991-93e0-c66c29e882fa" identifier="id-15d76a96-8b9a-4fcd-a00c-b93d7925cb60"/>
         <relationship xsi:type="Serving" source="id-b5780e1a-18c8-4730-9a6e-4309eb5adcd5" target="id-6a8f1ca4-4b88-4288-8fab-7d9934ab9486" identifier="id-6a85e722-10be-4f6d-8b37-c41beefb263b"/>
         <relationship xsi:type="Serving" source="id-b5780e1a-18c8-4730-9a6e-4309eb5adcd5" target="id-b61da362-a3d2-491b-bc86-fd417fa038d8" identifier="id-882b0821-5a24-44e6-a4b4-aa51d603a4dd"/>
@@ -899,10 +904,12 @@
         <relationship xsi:type="Association" source="id-cc3ac172-3c2d-4811-80c7-91ab3ab47926" target="id-bff70f8a-0006-48fd-a2f6-6e6c70f1013d" identifier="id-78bb824e-6357-419c-894b-004a15429aaa"/>
         <relationship xsi:type="Access" accessType="Write" source="id-51b88d5b-5515-4e3b-9ce0-a33dcdd0b490" target="id-a19debc8-3ead-487f-b501-294b5fd1f658" identifier="id-37a7cfc8-fdba-4338-ae29-73e941445ccd"/>
         <relationship xsi:type="Serving" source="id-63aba9cc-1a82-477d-bb2b-5f8511d9ffbd" target="id-7eda7ef0-c57c-4403-93c0-cb0bccaf585e" identifier="id-0291ed68-671f-4af3-a953-092db37fa9c4"/>
+        <relationship xsi:type="Triggering" source="id-f9989468-f528-415b-aefb-19b8b9391e90" target="id-7d935d83-bc78-44b0-b7db-20622ed1139a" identifier="id-05627fce-4865-40c1-bbd0-79b3b5b99ec8"/>
+        <relationship xsi:type="Assignment" source="id-955a7e54-dfb3-4a84-b1ca-3998524cb00e" target="id-d597acf8-60c4-412f-bd43-43e03cb8f468" identifier="id-9dfee699-2434-4eb4-a428-700695a284dd"/>
     </relationships>
     <propertyDefinitions>
         <propertyDefinition type="string" identifier="propid-12">
-            <name>Type of Airport</name>
+            <name>hjkhjk</name>
         </propertyDefinition>
         <propertyDefinition type="string" identifier="propid-6">
             <name>Isues boarding pass</name>
@@ -917,7 +924,7 @@
             <name>Parking space</name>
         </propertyDefinition>
         <propertyDefinition type="string" identifier="propid-8">
-            <name>Seasonal discount</name>
+            <name>fdgv</name>
         </propertyDefinition>
         <propertyDefinition type="string" identifier="propid-2">
             <name>Security checks</name>
@@ -926,19 +933,16 @@
             <name>Self service kiosks</name>
         </propertyDefinition>
         <propertyDefinition type="string" identifier="propid-11">
-            <name>hjkhjk</name>
-        </propertyDefinition>
-        <propertyDefinition type="string" identifier="propid-10">
             <name>Veg restaturant</name>
         </propertyDefinition>
-        <propertyDefinition type="string" identifier="propid-7">
-            <name>fdgv</name>
-        </propertyDefinition>
-        <propertyDefinition type="string" identifier="propid-9">
+        <propertyDefinition type="string" identifier="propid-10">
             <name>internet speed</name>
         </propertyDefinition>
-        <propertyDefinition type="string" identifier="propid-13">
-            <name>Internet speed</name>
+        <propertyDefinition type="string" identifier="propid-7">
+            <name>dgfdgfdg</name>
+        </propertyDefinition>
+        <propertyDefinition type="string" identifier="propid-9">
+            <name>Seasonal discount</name>
         </propertyDefinition>
     </propertyDefinitions>
 </model>
